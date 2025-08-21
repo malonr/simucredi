@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SimuCredi - Simulador de Crédito
 
-## Getting Started
+Un simulador de crédito moderno y fácil de usar para calcular cuotas de tarjeta de crédito en segundos.
 
-First, run the development server:
+## 🚀 Características
 
+- **Cálculo en tiempo real**: Simula tus cuotas instantáneamente
+- **Interfaz intuitiva**: Diseño limpio y fácil de usar
+- **Resultados detallados**: Ve el valor de cada cuota, monto total e intereses
+- **Responsive**: Funciona perfectamente en desktop y móvil
+- **Sin backend**: Todo funciona en el navegador
+
+## 🛠️ Tecnologías
+
+- **Next.js 15** - Framework de React
+- **TypeScript** - Tipado estático
+- **Tailwind CSS** - Estilos y diseño
+- **React Hooks** - Manejo de estado
+
+## 📦 Instalación
+
+1. Clona el repositorio:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <tu-repositorio>
+cd simucredi
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instala las dependencias:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Ejecuta el servidor de desarrollo:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-## Learn More
+## 🏗️ Estructura del Proyecto
 
-To learn more about Next.js, take a look at the following resources:
+```
+simucredi/
+├── src/
+│   ├── app/                    # Rutas principales (App Router)
+│   │   ├── page.tsx           # Página principal (/)
+│   │   ├── layout.tsx         # Layout compartido
+│   │   ├── globals.css        # Estilos globales
+│   │   └── simulador/         # Ruta /simulador
+│   │       └── page.tsx
+│   ├── components/            # Componentes reutilizables
+│   │   ├── ui/               # Componentes de interfaz
+│   │   └── simulador/        # Componentes específicos
+│   ├── lib/                  # Utilidades y funciones
+│   │   └── calculations.ts   # Lógica de cálculo de crédito
+│   └── types/               # Tipos TypeScript
+├── public/               # Archivos estáticos
+└── package.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧮 Funcionalidades del Simulador
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Entradas
+- **Monto de la compra**: Cantidad a financiar
+- **Tasa de interés anual**: Porcentaje anual del crédito
+- **Número de cuotas**: Cantidad de cuotas a pagar (1-60)
 
-## Deploy on Vercel
+### Salidas
+- **Valor de cada cuota**: Monto mensual a pagar
+- **Monto total a pagar**: Suma de todas las cuotas
+- **Intereses totales**: Diferencia entre el total y el monto original
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Vercel (Recomendado)
+1. Conecta tu repositorio a Vercel
+2. Vercel detectará automáticamente que es un proyecto Next.js
+3. ¡Listo! Tu sitio estará disponible en `https://tu-proyecto.vercel.app`
+
+### Netlify
+1. Conecta tu repositorio a Netlify
+2. Configura el comando de build: `npm run build`
+3. Configura el directorio de publicación: `.next`
+
+## 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT.
+
+## 🤝 Contribuir
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📞 Contacto
+
+- Email: [tu-email@ejemplo.com]
+- LinkedIn: [tu-linkedin]
+- Twitter: [@tu-twitter]
