@@ -17,25 +17,7 @@ Un simulador de crédito moderno y fácil de usar para calcular cuotas de tarjet
 - **Tailwind CSS** - Estilos y diseño
 - **React Hooks** - Manejo de estado
 
-## 📦 Instalación
 
-1. Clona el repositorio:
-```bash
-git clone <tu-repositorio>
-cd simucredi
-```
-
-2. Instala las dependencias:
-```bash
-npm install
-```
-
-3. Ejecuta el servidor de desarrollo:
-```bash
-npm run dev
-```
-
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
 ## 🏗️ Estructura del Proyecto
 
@@ -70,25 +52,11 @@ simucredi/
 - **Monto total a pagar**: Suma de todas las cuotas
 - **Intereses totales**: Diferencia entre el total y el monto original
 
-## 🚀 Deployment
-
-### Vercel (Recomendado)
-1. Conecta tu repositorio a Vercel
-2. Vercel detectará automáticamente que es un proyecto Next.js
-3. ¡Listo! Tu sitio estará disponible en `https://tu-proyecto.vercel.app`
-
 
 ## 📝 Licencia
 
 Este proyecto está bajo la Licencia MIT.
 
-## 🤝 Contribuir
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
 
 ## 📞 Contacto
 
