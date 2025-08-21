@@ -77,10 +77,6 @@ simucredi/
 2. Vercel detectará automáticamente que es un proyecto Next.js
 3. ¡Listo! Tu sitio estará disponible en `https://tu-proyecto.vercel.app`
 
-### Netlify
-1. Conecta tu repositorio a Netlify
-2. Configura el comando de build: `npm run build`
-3. Configura el directorio de publicación: `.next`
 
 ## 📝 Licencia
 
@@ -96,6 +92,5 @@ Este proyecto está bajo la Licencia MIT.
 
 ## 📞 Contacto
 
-- Email: [tu-email@ejemplo.com]
-- LinkedIn: [tu-linkedin]
-- Twitter: [@tu-twitter]
+- Email: [marlon.ramirezlizcano@gmail.com]
+- LinkedIn: [https://www.linkedin.com/in/marlonramirezlizcano/]
