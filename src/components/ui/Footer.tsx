@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex space-x-6">
             {/* Instagram */}
             <a 
-              href="https://www.instagram.com/maloncode/" 
+              href="https://www.instagram.com/nevadatech/" 
               target="_blank" 
               rel="noopener noreferrer"
               aria-label="Instagram de Maloncode" 
