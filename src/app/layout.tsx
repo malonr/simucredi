@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SimuCredi - Simulador de Crédito",
+  title: "Simucredi - Simulador de Crédito",
   description: "Simula tus cuotas de tarjeta de crédito en segundos. Calculá fácilmente cuánto pagarás en cada cuota y descubre el costo real de tu compra.",
 };
 

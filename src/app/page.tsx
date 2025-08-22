@@ -8,14 +8,16 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <Header />
-      <HeroSection />
-      <FeatureCards />
-      
-      <section id="simulador" className="py-16">
-        <CreditSimulatorClient />
-      </section>
-      
-      <Footer />
+      <div className="pt-16">
+        <HeroSection />
+        <FeatureCards />
+        
+        <section id="simulador" className="py-16">
+          <CreditSimulatorClient />
+        </section>
+        
+        <Footer />
+      </div>
     </main>
   );
 }
