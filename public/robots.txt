@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /_next/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://simucredi.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Block specific bots if needed (uncomment if necessary)
+# User-agent: AhrefsBot
+# Disallow: /
+
+# User-agent: SemrushBot
+# Disallow: /

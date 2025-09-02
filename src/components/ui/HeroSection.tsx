@@ -4,7 +4,7 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ fontSize: 'clamp(2.25rem, 5vw, 3rem)' }}>
-            Simula tus cuotas de tu crédito en segundos
+            Simulador de Crédito Gratuito
           </h1>
           <p className="text-xl mb-8 text-blue-100">
             Calcula fácilmente cuánto pagarás en cada cuota y descubre el costo real de tu compra.
