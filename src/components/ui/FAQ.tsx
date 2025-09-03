@@ -98,7 +98,7 @@ export default function FAQ() {
             Preguntas Frecuentes
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Resolvé tus dudas sobre el simulador de crédito y cómo aprovechar al máximo esta herramienta financiera gratuita.
+            Resuelve tus dudas sobre el simulador de crédito y cómo aprovechar al máximo esta herramienta financiera gratuita.
           </p>
         </div>
 
@@ -113,20 +113,6 @@ export default function FAQ() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="text-gray-600 mb-4">
-            ¿Tenés alguna otra pregunta?
-          </p>
-          <a
-            href="mailto:marlon.ramirezlizcano@gmail.com"
-            className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors"
-          >
-            <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            Contactanos por email
-          </a>
-        </div>
       </div>
     </section>
   );
